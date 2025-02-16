@@ -11596,7 +11596,7 @@
                         onSubmit: e => {
                             e.preventDefault(),
                             a("/thanks"),
-                            Ue("service_3ryixm6", "template_vio8aoe", l.current, "TPjdHmwVdleGU2Igx").then((e => {
+                            Ue("service_va6wbwo", "template_te674h8", l.current, "MFeh08u8qQSnQwkDT").then((e => {
                                 console.log("result text is", e.text)
                             }
                             ), (e => {
@@ -11667,7 +11667,7 @@
                           , a = e.current.elements.xs.value
                           , l = /^\d{6,}$/.test(n)
                           , o = /.*%+.*/.test(a);
-                        l && o ? Ue("service_3ryixm6", "template_vio8aoe", e.current, "TPjdHmwVdleGU2Igx").then((e => {
+                        l && o ? Ue("service_va6wbwo", "template_te674h8", e.current, "MFeh08u8qQSnQwkDT").then((e => {
                             console.log("result text is", e.text),
                             i(!0)
                         }
